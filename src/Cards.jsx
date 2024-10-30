@@ -10,16 +10,16 @@ const Cards = ({ item }) => {
             alt=""
             className="bg-auto rounded-3xl p-3 "
           />
-          <p className="text-lg font-bold text-center">
+          <p className="text-md font-bold text-center">
             Latitude :{item.latitude}
           </p>
-          <p className="text-lg font-bold text-center">
+          <p className="text-md font-bold text-center">
             Longitude : {item.longitude}
           </p>
-          <p className="text-lg font-bold text-center">
+          <p className="text-md font-bold text-center">
             Description :{item.description}
           </p>
-          <p className="text-lg font-bold text-center">
+          <p className="text-md font-bold text-center">
             updatedate :{item.updatedat.split("", 10)}
           </p>
         </div>
